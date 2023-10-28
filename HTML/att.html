@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>好玩的手游</title>
+    <style>
+        /* 基本樣式 */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-image: url("C:\\Users\\88698\\Pictures\\Saved Pictures\\5c8b73ea89037.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .column {
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+            margin: 10px;
+            flex: 1;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* 響應式樣式 */
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+
+            .column {
+                width: 100%;
+            }
+        }
+
+        /* 滑鼠懸停效果 */
+        .column:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* 缩小图像 */
+        .small-image {
+            width: 400px; /* 设置图像宽度 */
+            height: auto; /* 高度自适应以保持宽高比 */
+        }
+
+        /* 新增图像样式 */
+        .small-icon {
+            width: 30px; /* 设置图像宽度 */
+            height: auto; /* 高度自适应以保持宽高比 */
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="column">
+        <h2>傳說對決</h2>
+        <a href="https://moba.garena.tw/" target="_blank">
+            <img class="small-image" src="C:\\Users\\88698\\Pictures\\Saved Pictures\\0704beta22改版新聞1.jpg" alt="圖片1">
+        </a>
+    </div>
+    <div class="column">
+        <h2>決勝時刻</h2>
+        <a href="https://codm.garena.tw/" target="_blank">
+            <img class="small-image" src="C:\\Users\\88698\\Pictures\\Saved Pictures\\Call_of_Duty_Mobile_cover.jpg" alt="圖片2">
+        </a>
+    </div>
+    <div class="column">
+        <h2>原神</h2>
+        <a href="https://genshin.hoyoverse.com/pc-launcher/?utm_source=CHT_google_TW_search_brand3&mhy_trace_channel=ga_channel&new=1&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFHcKfNPkFG2y9shz0aMbhaf6VKopqS0iKhr1G9GDraDXtp9ESzLjMxoCxtMQAvD_BwE#/GI008" target="_blank">
+            <img class="small-image" src="C:\\Users\\88698\\Pictures\\Saved Pictures\\1585391103-131640068_wn.jpg" alt="圖片3">
+        </a>
+    </div>
+    <!-- 新增左下角小图标 -->
+    <a href="https://gamekillerapp.com/zh-HK/games" target="_blank">
+        <img class="small-icon" src="C:\\Users\\88698\\Pictures\\Saved Pictures\\E-835615-10FA4E90E.png" alt="小图标">
+    </a>
+    <script>
+        // 可以添加 JavaScript 代碼以實現互動功能，或者留空
+    </script>
+</body>
+</html>
